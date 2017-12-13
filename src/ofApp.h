@@ -121,7 +121,6 @@ public:
   ofxFaceTracker tracker;
 	ofImage camImage;
   
-  
   bool bRecording;
   int sampleRate;
   int channels;
@@ -130,8 +129,6 @@ public:
   
 	ofFbo eyeFbo;
 	ofPixels eyePixels;
-//  ofFbo recordFbo;
-//  ofPixels recordPixels;
 	ofxCvColorImage		eyeImageColor;
 	ofxCvGrayscaleImage	eyeImageGray;
 	ofxCvGrayscaleImage	eyeImageGrayPrev;
